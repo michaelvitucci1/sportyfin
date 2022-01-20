@@ -4,4 +4,4 @@ WORKDIR /sportyfin
 
 RUN pip install sportyfin==1.0.7 --no-binary=sportyfin
 
-CMD [ "python3", "-m" , "sportyfin", "run", "-a", "-o", "/sportyfin/output"]
+CMD [ "python3", "-m" , "sportyfin", "run", "-a", "-s", "-o", "/sportyfin/output"]
